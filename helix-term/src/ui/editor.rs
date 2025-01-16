@@ -229,7 +229,10 @@ impl EditorView {
         if config.inline_diagnostics.disabled()
             && config.end_of_line_diagnostics == DiagnosticFilter::Disable
         {
-            Self::render_diagnostics(doc, view, inner, surface, theme);
+            // Just skip drawing all diagnostics,
+            // we can still use them without annoying popups
+            // TODO: make this an option and create a PR
+            // Self::render_diagnostics(doc, view, inner, surface, theme);
         }
 
         let statusline_area = view

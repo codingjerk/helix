@@ -8,6 +8,8 @@
 </picture>
 </h1>
 
+<p>CJ's personal Fork</p>
+
 [![Build status](https://github.com/helix-editor/helix/actions/workflows/build.yml/badge.svg)](https://github.com/helix-editor/helix/actions)
 [![GitHub Release](https://img.shields.io/github/v/release/helix-editor/helix)](https://github.com/helix-editor/helix/releases/latest)
 [![Documentation](https://shields.io/badge/-documentation-452859)](https://docs.helix-editor.com/)
@@ -15,6 +17,21 @@
 [![Matrix Space](https://img.shields.io/matrix/helix-community:matrix.org)](https://matrix.to/#/#helix-community:matrix.org)
 
 </div>
+
+# About Fork
+
+It's a fork for personal usage, I'll merge here PR's I find so useful,
+I'm impatient to wait for them to reach upstream.
+
+Current list is:
+
+- Merged statusline and cmdline (by nik-rev) [PR](https://github.com/helix-editor/helix/pull/12204)
+- Rulers as thin lines (by me) [PR](https://github.com/helix-editor/helix/pull/11798)
+
+And some custom no-PR features:
+
+- `-Ctarget-cpu=native`
+- Disable all diagnostic popup windows (I can see them in "g d" picker)
 
 ![Screenshot](./screenshot.png)
 
